@@ -1,0 +1,48 @@
+:root {
+  --primary-blue: #0b3c5d;
+  --royal-blue: #1d2731;
+  --accent-gold: #d9b310;
+  --bg-light: #f4f7f6;
+  --text-dark: #333333;
+  --success: #2e7d32;
+  --warning: #ed6c02;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-blue);
+  color: #ffffff;
+  padding: 0.75rem 2rem;
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.role-badge {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.btn-logout {
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
